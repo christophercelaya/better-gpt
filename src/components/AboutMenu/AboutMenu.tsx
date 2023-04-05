@@ -43,20 +43,6 @@ const AboutMenu = () => {
                 />
               </p>
 
-              <p>
-                <Trans
-                  i18nKey='initiative.description'
-                  ns='about'
-                  components={[
-                    <a
-                      href={t('initiative.link', { ns: 'about' }) as string}
-                      target='_blank'
-                      className='link'
-                    />,
-                  ]}
-                />
-              </p>
-
               <h2 className='text-lg font-bold'>
                 {t('privacyStatement.title', { ns: 'about' })}
               </h2>
