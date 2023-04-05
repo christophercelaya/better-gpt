@@ -25,6 +25,7 @@ Better ChatGPT comes with a bundle of amazing features! Here are some of them:
 - Prompt rating system
 - Image generation
 - Plugins
+- CPU / GPU usage
 
 ## Desktop App
 

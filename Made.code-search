@@ -1,0 +1,10 @@
+# Query: Made
+# Flags: CaseSensitive WordMatch
+# ContextLines: 1
+
+1 result - 1 file
+
+public/locales/en-US/main.json:
+  11    "export": "Export",
+  12:   "author": "Chris Celaya",
+  13    "about": "About  ",
