@@ -29,10 +29,11 @@ const TokenCount = React.memo(() => {
     if (!generating) setTokenCount(countTokens(messages, model));
   }, [messages, generating]);
 
+  // Counter located in the top right of the chat
   return (
-    <div className='absolute top-[-16px] right-0'>
-      <div className='text-xs italic text-gray-900 dark:text-gray-300'>
-        Tokens: {tokenCount} (${cost})
+    <div className='absolute top-[-25px] right-0'>
+      <div className='text-xs italic text-gray-900 dark:text-green-600'>
+        Token Usage: {tokenCount} (${cost})
       </div>
     </div>
   );
