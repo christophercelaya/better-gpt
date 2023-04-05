@@ -35,7 +35,7 @@ const AboutMenu = () => {
                   ns='about'
                   components={[
                     <a
-                      href='https://github.com/ztjhz/BetterChatGPT'
+                      href='https://github.com/christophercelaya/better-gpt'
                       target='_blank'
                       className='link'
                     />,
@@ -56,76 +56,6 @@ const AboutMenu = () => {
                   ]}
                 />
               </p>
-
-              <h2 className='text-lg font-bold'>
-                {t('discordServer.title', { ns: 'about' })}
-              </h2>
-              <p>{t('discordServer.paragraph1', { ns: 'about' })}</p>
-
-              <p>
-                <Trans
-                  i18nKey='discordServer.paragraph2'
-                  ns='about'
-                  components={[
-                    <a
-                      className='link'
-                      href='https://discord.gg/g3Qnwy4V6A'
-                      target='_blank'
-                    />,
-                  ]}
-                />
-              </p>
-
-              <>
-                <h2 className='text-lg font-bold'>
-                  {t('support.title', { ns: 'about' })}
-                </h2>
-                <p>{t('support.paragraph1', { ns: 'about' })}</p>
-                <p>
-                  <Trans
-                    i18nKey='support.paragraph2'
-                    ns='about'
-                    components={[
-                      <a
-                        href='https://github.com/ztjhz/BetterChatGPT'
-                        target='_blank'
-                        className='link'
-                      />,
-                    ]}
-                  />
-                </p>
-                <p>{t('support.paragraph3', { ns: 'about' })}</p>
-
-                <div className='flex flex-col items-center gap-4 my-4'>
-                  <a href='https://ko-fi.com/betterchatgpt' target='_blank'>
-                    <img
-                      src='./kofi.svg'
-                      alt='Support us through the Ko-fi platform.'
-                    />
-                  </a>
-                  <div className='flex gap-x-10 gap-y-4 flex-wrap justify-center'>
-                    <div className='flex flex-col items-center justify-center gap-1'>
-                      <div>{t('support.alipay', { ns: 'about' })} (Ayaka)</div>
-                      <img
-                        className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/alipay.jpg'
-                        alt='Support us through Alipay'
-                      />
-                    </div>
-                    <div className='flex flex-col items-center justify-center gap-1'>
-                      <div>
-                        {t('support.wechatPay', { ns: 'about' })} (Ayaka)
-                      </div>
-                      <img
-                        className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/wechat.png'
-                        alt='Support us through WeChat Pay'
-                      />
-                    </div>
-                  </div>
-                </div>
-                <p>{t('support.paragraph4', { ns: 'about' })}</p>
-              </>
 
               <h2 className='text-lg font-bold'>
                 {t('privacyStatement.title', { ns: 'about' })}
