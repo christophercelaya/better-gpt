@@ -39,7 +39,7 @@ export const getChatCompletionStream = async (
   });
   if (response.status === 404 || response.status === 405)
     throw new Error(
-      'Message from Better GPT:\nInvalid API endpoint! We recommend you to check your free API endpoint.'
+      'Message from Better GPT:\nInvalid API endpoint! Check your API endpoint.'
     );
 
   if (response.status === 429 || !response.ok) {
