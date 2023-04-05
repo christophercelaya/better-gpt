@@ -18,7 +18,7 @@ Better ChatGPT comes with a bundle of amazing features! Here are some of them:
 
 # 🛠️ Usage
 
-To get started, simply visit our website at <https://bettergpt.chat/>. There are 3 ways for you to start using Better ChatGPT.
+To get started, simply visit our website at <https://vercel.com/>. There are 3 ways for you to start using Better GPT.
 
 1. Enter into the API menu your OpenAI API Key obtained from [OpenAI API Keys](https://platform.openai.com/account/api-keys).
 2. Utilise the api endpoint proxy provided by [ayaka14732/ChatGPTAPIFree](https://github.com/ayaka14732/ChatGPTAPIFree) (if you are in a region with no access to ChatGPT)
@@ -37,11 +37,11 @@ Download the desktop app [here](https://github.com/christophercelaya/better-gpt/
 ### Features:
 
 - Unlimited local storage
-- Runs locally (access Better ChatGPT even if the website is not accessible)
+- Runs locally (access Better GPT even if the website is not accessible)
 
 # 🛫 Host your own Instance
 
-If you'd like to run your own instance of Better ChatGPT, you can easily do so by following these steps:
+If you'd like to run your own instance of Better GPT, you can easily do so by following these steps:
 
 ## Vercel
 todo
