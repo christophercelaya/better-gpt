@@ -75,7 +75,8 @@ todo
    - [node.js](https://nodejs.org/en/)
    - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-2. Clone this [repository](https://github.com/ztjhz/BetterChatGPT) by running `git clone https://github.com/ztjhz/BetterChatGPT.git`
-3. Navigate into the directory by running `cd BetterChatGPT`
+2. Clone this [repository](https://github.com/ztjhz/BetterChatGPT) by running `git clone https://github.com/christophercelaya/better-gpt.git`
+3. Navigate into the directory by running `cd better-gpt`
 4. Run `yarn` or `npm install`, depending on whether you have yarn or npm installed.
 5. Launch the app by running `yarn dev` or `npm run dev`
+6. Navigate to locahost:3000
