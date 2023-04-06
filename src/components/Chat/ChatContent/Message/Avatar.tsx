@@ -16,8 +16,8 @@ const Avatar = React.memo(({ role }: { role: Role }) => {
 const UserAvatar = () => {
   return (
     <div
-      className='relative h-[30px] w-[30px] p-1 rounded-sm text-white flex items-center justify-center'
-      style={{ backgroundColor: 'rgb(200, 70, 70)' }}
+      className='relative h-[20px] w-[20px] p-1 rounded-sm text-white flex items-center justify-center'
+      style={{ backgroundColor: 'rgb(0, 70, 70)' }}
     >
       <PersonIcon />
     </div>
@@ -27,13 +27,13 @@ const UserAvatar = () => {
 const AssistantAvatar = () => {
   return (
     <div
-      className='relative h-[30px] w-[30px] p-1 rounded-sm text-white flex items-center justify-center'
-      style={{ backgroundColor: 'rgb(16, 163, 127)' }}
+      className='relative h-[20px] w-[20px] p-1 rounded-sm text-white flex items-center justify-center'
+      style={{ backgroundColor: 'rgb(50, 150, 0)' }}
     >
       <svg
-        width='41'
-        height='41'
-        viewBox='0 0 41 41'
+        width='35'
+        height='35'
+        viewBox='0 0 35 35'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
         strokeWidth='1.5'
@@ -51,8 +51,8 @@ const AssistantAvatar = () => {
 const SystemAvatar = () => {
   return (
     <div
-      className='relative h-[30px] w-[30px] p-1 rounded-sm text-white flex items-center justify-center'
-      style={{ backgroundColor: 'rgb(126, 163, 227)' }}
+      className='relative h-[20px] w-[20px] p-1 rounded-sm text-white flex items-center justify-center'
+      style={{ backgroundColor: 'rgb(1, 1, 1)' }}
     >
       <SettingIcon />
     </div>
