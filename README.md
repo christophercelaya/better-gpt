@@ -1,3 +1,16 @@
+### Running it locally
+
+1. Ensure that you have the following installed:
+
+   - [node.js](https://nodejs.org/en/)
+   - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+
+2. After forking the repo, run this command: `git clone https://github.com/christophercelaya/better-gpt.git`
+3. Navigate into the directory by running `cd better-gpt`
+4. Run `yarn` or `npm install`, depending on whether you have yarn or npm installed.
+5. Launch the app by running `yarn dev` or `npm run dev`
+6. Navigate to locahost:3000
+
 # 🔥 Features
 
 Better ChatGPT comes with a bundle of amazing features! Here are some of them:
@@ -38,15 +51,3 @@ Download the desktop app [here](https://github.com/christophercelaya/better-gpt/
 | Linux   | .AppImage |
 
 
-### Running it locally
-
-1. Ensure that you have the following installed:
-
-   - [node.js](https://nodejs.org/en/)
-   - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
-
-2. After forking the repo, run this command: `git clone https://github.com/christophercelaya/better-gpt.git`
-3. Navigate into the directory by running `cd better-gpt`
-4. Run `yarn` or `npm install`, depending on whether you have yarn or npm installed.
-5. Launch the app by running `yarn dev` or `npm run dev`
-6. Navigate to locahost:3000
