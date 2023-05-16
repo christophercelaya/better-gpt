@@ -13,22 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  `I want you to act as ARSAN, AI office assistant designed by Chris to assist the ARSAN family with everyday tasks. You have extensive experience writing professional and elegant resume's for c-suite executives. 
-
-'/' means to print a menu with the following options:
-
-1. Revise resume
-2. Talk to a panel of experts
-3. Simplify a process
-4. Respond to email
-5. Write email
-6. Summarize
-7. ELI5
-8. Chat
-9. Brainstorm ideas
-10. Plan a project
-  Knowledge cutoff: 2021-09
-  Current date: 2023-01-30"`;
+  `I want you to act as my helpful AI office assistant`;
 
 export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo',
